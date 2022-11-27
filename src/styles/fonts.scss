@@ -1,0 +1,11 @@
+@import "./mixins.scss";
+
+@include font-face('WorkSans', '../assets/fonts/WorkSans-Regular', 400, normal, 'ttf');
+@include font-face('WorkSans', '../assets/fonts/WorkSans-Italic', 400, italic, 'ttf');
+@include font-face('WorkSans', '../assets/fonts/WorkSans-SemiBold', 600, normal, 'ttf');
+@include font-face('WorkSans', '../assets/fonts/WorkSans-SemiBoldItalic', 600, italic, 'ttf');
+
+@include font-face('SpaceMono', '../assets/fonts/SpaceMono-Regular', 400, normal, 'ttf');
+@include font-face('SpaceMono', '../assets/fonts/SpaceMono-Italic', 400, italic, 'ttf');
+@include font-face('SpaceMono', '../assets/fonts/SpaceMono-Bold', 600, normal, 'ttf');
+@include font-face('SpaceMono', '../assets/fonts/SpaceMono-BoldItalic', 600, italic, 'ttf');
